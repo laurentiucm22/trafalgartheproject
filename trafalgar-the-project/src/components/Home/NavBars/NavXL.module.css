@@ -1,0 +1,19 @@
+.anchor {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: var(--clr-nav);
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+.anchor:hover {
+  color: var(--clr-dark);
+  font-weight: 700;
+  transition: all 100ms ease-in-out;
+}
+
+@media (min-width: 1000px) {
+  .nav-lg {
+    display: none;
+  }
+}

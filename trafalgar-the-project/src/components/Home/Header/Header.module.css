@@ -1,0 +1,26 @@
+.elementPosition {
+  position: absolute;
+  left: 0;
+}
+.header-row {
+  padding-bottom: 8rem;
+}
+
+.header-title {
+  font-size: 3rem;
+  line-height: 1.1;
+  max-width: 400px;
+}
+
+.header-p {
+  font-size: 1.313rem;
+  line-height: 1.5;
+  max-width: 450px;
+}
+
+.header-button {
+  font-size: 1.125rem;
+  border-radius: 1.875rem;
+  color: var(--clr-btn);
+  padding: 0.6em 2.4em;
+}
