@@ -15,12 +15,17 @@ const MobileNav = ({ ...props }) => {
   const handleShow = () => setShow(true);
 
   const menu = (
-    <HiOutlineMenu className="text-dark" style={{ fontSize: "2rem" }} />
+    <HiOutlineMenu fluid={`${true}`} className={`${"text-dark "}`} />
   );
 
   return (
     <div className={`${classes["mobile-nav"]} ${"w-100 justify-content-end"}`}>
-      <Button onClick={handleShow} className="bg bg-white">
+      <Button
+        onClick={handleShow}
+        className={`${"bg bg-white d-flex justify-content-center align-items-center"} ${
+          classes["mobile-icon"]
+        }`}
+      >
         {menu}
       </Button>
       <Offcanvas show={show} onHide={handleClose} {...props} placement={"end"}>

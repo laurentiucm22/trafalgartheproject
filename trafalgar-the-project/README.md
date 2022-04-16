@@ -8,7 +8,7 @@
 
 # Or you can access this project here: https://www.figma.com/file/EWmzcVkd7qbP5Nf7iMvuqP/Trafalgar-Landing-Page?node-id=0%3A1;
 
-# It's has been created with the purpose of learning and evolving my skills;
+# It has been created with the purpose of learning and evolving my skills;
 
 # I do not intent, now, or in the future to monetize this design, it is strictly for educational use;
 
