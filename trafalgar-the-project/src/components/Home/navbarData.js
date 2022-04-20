@@ -2,26 +2,26 @@ export const navData = [
   {
     id: "n1",
     page: "Home",
-    anchor: "#",
+    links: "#",
   },
   {
     id: "n2",
     page: "Find a doctor",
-    anchor: "#",
+    links: "#find-a-doctor",
   },
   {
     id: "n3",
     page: "Apps",
-    anchor: "#",
+    links: "#",
   },
   {
     id: "n4",
     page: "Testimonials",
-    anchor: "#",
+    links: "#",
   },
   {
     id: "n5",
     page: "About Us",
-    anchor: "#",
+    links: "#",
   },
 ];

@@ -1,22 +1,23 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
 import { ourServicesData } from "./ourServicesData";
+import classes from "./OurServicesCards.module.css";
 
 const OurServicesCards = () => {
   return (
-    <div>
-      <Container fluid>
-        {ourServicesData.map(({ id, imgSrc, title, description }) => {
-          return (
-            <div key={id}>
-              <Image src={imgSrc} />
-              <h2>{title}</h2>
-              <p>{description}</p>
-            </div>
-          );
-        })}
-      </Container>
+    <div className={`${classes["card-container"]}`}>
+      {ourServicesData.map(({ id, imgSrc, title, description }) => {
+        return (
+          <div key={id} className={`${classes.card} ${"p-4"}`}>
+            <Image fluid src={imgSrc} className={`${"py-2"}`} />
+
+            <h2 className={`${classes["card-title"]}`}>{title}</h2>
+            <p className={`${"text-wrap"} ${classes["card-desc"]}`}>
+              {description}
+            </p>
+          </div>
+        );
+      })}
     </div>
   );
 };

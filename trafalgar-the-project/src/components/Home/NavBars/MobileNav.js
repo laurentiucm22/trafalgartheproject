@@ -36,12 +36,13 @@ const MobileNav = ({ ...props }) => {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <Nav className={`${"d-flex flex-column flex-grow-1"}`}>
-            {navData.map(({ page, id }) => {
+            {navData.map(({ page, id, links }) => {
               return (
                 <a
-                  href="#"
+                  href={links}
                   key={id}
                   className={`${classes.anchor} ${"py-2 px-1"}`}
+                  onClick={handleClose}
                 >
                   {page}
                 </a>

@@ -34,9 +34,9 @@ const NavXL = () => {
                     classes["nav-lg"]
                   } ${"d-none d-xl-flex d-xxl-flex flex-row justify-content-around flex-grow-1"}`}
                 >
-                  {navData.map(({ page, id }) => {
+                  {navData.map(({ page, id, links }) => {
                     return (
-                      <a href="#" key={id} className={`${classes.anchor}`}>
+                      <a href={links} key={id} className={`${classes.anchor}`}>
                         {page}
                       </a>
                     );

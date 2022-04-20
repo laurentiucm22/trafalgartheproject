@@ -9,7 +9,7 @@ import "animate.css";
 
 function App() {
   return (
-    <div className="w-100 position-relative">
+    <div className=" position-relative">
       <HomePage projectData={projectData} />
       <OurServicesPage projectData={projectData} />
     </div>

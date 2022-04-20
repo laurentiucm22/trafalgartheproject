@@ -1,15 +1,30 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import OurServicesCards from "./OurServicesCards";
-// import classes from "./OurServices.module.css";
+import classes from "./OurServices.module.css";
 import OurServicesHead from "./OurServicesHead";
+import Button from "react-bootstrap/Button";
 
 const OurServices = ({ title, desc }) => {
   return (
-    <Container fluid>
+    <div
+      className={`${
+        classes["our-services__container"]
+      } ${"position-relative py-3"}`}
+      id="find-a-doctor"
+    >
       <OurServicesHead title={title} desc={desc} />
       <OurServicesCards />
-    </Container>
+      <Container fluid className="text-center py-5">
+        <Button
+          type="button"
+          variant="outline-primary"
+          className={`${classes["our-services__btn"]}`}
+        >
+          Learn More
+        </Button>
+      </Container>
+    </div>
   );
 };
 

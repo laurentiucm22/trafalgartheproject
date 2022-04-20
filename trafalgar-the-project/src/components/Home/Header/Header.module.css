@@ -2,8 +2,10 @@
   position: absolute;
   left: 0;
 }
+
 .header-row {
-  padding-bottom: 8rem;
+  padding-bottom: 14rem;
+  overflow-x: hidden;
 }
 
 .header-title {

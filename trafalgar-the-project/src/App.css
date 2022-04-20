@@ -9,7 +9,7 @@
   --clr-dark: #000000;
   --clr-nav: #1f1534;
   --clr-btn: #458ff6;
-  --clr-seccondary: #7d7987;
+  --clr-secondary: #7d7987;
 }
 
 /* Box sizing rules and resets */
@@ -21,6 +21,9 @@
   padding: 0;
   white-space: nowrap;
   font-family: var(--ff-mulish);
+}
+html {
+  background-color: #e5e5e5;
 }
 
 body {
