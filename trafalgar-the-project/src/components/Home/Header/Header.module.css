@@ -1,56 +1,94 @@
 .elementPosition {
   position: absolute;
-  left: 0;
+  left: 0%;
 }
 
 .header-row {
   padding-bottom: 14rem;
+  margin-top: 1rem;
   overflow-x: hidden;
 }
-
+.header-img {
+  overflow-x: hidden;
+}
 .header-title {
   font-size: 3rem;
   line-height: 1.1;
-  max-width: 400px;
+  max-width: 450px;
+  font-weight: 700;
 }
 
 .header-p {
-  font-size: 1.313rem;
+  font-size: var(--fs-600a);
   line-height: 1.5;
   max-width: 450px;
+  font-weight: 300;
 }
 
 .header-button {
-  font-size: 1.125rem;
+  font-size: var(--fs-500);
   border-radius: 1.875rem;
-  color: var(--clr-btn);
-  padding: 0.6em 2.4em;
+  color: var(--clr-primary);
+  padding: 0.7em 2.4em;
+  font-weight: 700;
 }
 
 @media (max-width: 1100px) {
   .header-title {
-    max-width: 100%;
-    font-size: 2.7rem;
+    font-size: var(--fs-900a);
   }
   .header-p {
     max-width: 80%;
-    font-size: 1.23rem;
+    font-size: var(--fs-500);
   }
   .header-button {
-    font-size: 1rem;
+    font-size: var(--fs-400);
+  }
+}
+
+@media (max-width: 800px) {
+  .header-title {
+    margin-top: -2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-row {
+    padding-bottom: 4rem;
+  }
+  .header-title {
+    margin-top: -4rem;
   }
 }
 
 @media (max-width: 500px) {
-  .header-title {
-    max-width: 100%;
-    font-size: 1.8rem;
+  .header-row {
+    padding-bottom: 4rem;
   }
+  .header-title {
+    max-width: 300px;
+    font-size: var(--fs-700);
+    margin-top: -6rem;
+  }
+
   .header-p {
     max-width: 80%;
-    font-size: 0.9rem;
+    font-size: var(--fs-400);
   }
   .header-button {
-    font-size: 0.8rem;
+    font-size: var(--fs-400);
+  }
+}
+
+@media (max-width: 300px) {
+  .header-row {
+    padding-bottom: 1rem;
+  }
+  .header-title {
+    margin-top: -8rem;
+  }
+  .header-button {
+    width: 100%;
+    font-size: var(--fs-200);
   }
 }

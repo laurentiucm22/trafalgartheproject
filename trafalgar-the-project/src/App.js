@@ -5,13 +5,15 @@ import "styled-components";
 import HomePage from "./pages/HomePage";
 import { projectData } from "./components/projectData";
 import OurServicesPage from "./pages/OurServicesPage";
+import LeadingPage from "./pages/LeadingPage";
 import "animate.css";
 
 function App() {
   return (
-    <div className=" position-relative">
+    <div className="position-relative">
       <HomePage projectData={projectData} />
       <OurServicesPage projectData={projectData} />
+      <LeadingPage projectData={projectData} />
     </div>
   );
 }

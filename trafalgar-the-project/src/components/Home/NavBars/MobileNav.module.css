@@ -2,7 +2,7 @@
   display: flex;
 }
 .anchor {
-  font-size: 1.125rem;
+  font-size: var(--fs-500);
   font-weight: 400;
   color: var(--clr-nav);
   text-decoration: none;
@@ -30,11 +30,11 @@
 
 @media (max-width: 600px) {
   .mobile-icon {
-    font-size: 1.5rem;
+    font-size: var(--fs-600);
   }
 }
 @media (max-width: 350px) {
   .mobile-icon {
-    font-size: 1rem;
+    font-size: var(--fs-400);
   }
 }

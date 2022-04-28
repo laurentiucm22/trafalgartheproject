@@ -8,10 +8,10 @@ const OurServicesCards = () => {
     <div className={`${classes["card-container"]}`}>
       {ourServicesData.map(({ id, imgSrc, title, description }) => {
         return (
-          <div key={id} className={`${classes.card} ${"p-4"}`}>
+          <div key={id} className={`${classes.card} ${"p-md-4 p-xl-4"}`}>
             <Image fluid src={imgSrc} className={`${"py-2"}`} />
 
-            <h2 className={`${classes["card-title"]}`}>{title}</h2>
+            <h2 className={classes["card-title"]}>{title}</h2>
             <p className={`${"text-wrap"} ${classes["card-desc"]}`}>
               {description}
             </p>

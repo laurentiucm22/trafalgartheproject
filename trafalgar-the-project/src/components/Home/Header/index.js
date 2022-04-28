@@ -1,18 +1,23 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import headerElem from "../../../images/header-element.svg";
+import Container from "react-bootstrap/Container";
 import classes from "./Header.module.css";
 import Button from "react-bootstrap/Button";
 import headerImg from "../../../images/headerImg.svg";
-import Container from "react-bootstrap/Container";
+import headerElem from "../../../images/header-element.svg";
 
 const Header = ({ title, desc, btn }) => {
   return (
     <Container>
-      <Image fluid src={headerElem} className={classes.elementPosition} />
+      <Container fluid>
+        <Image
+          src={headerElem}
+          className={`${classes.elementPosition} ${"image-responsive"}`}
+        />
+      </Container>
       <Row className={`${classes["header-row"]} ${"pt-5"}`}>
-        <Col xl={6} md={12} className="pt-5 mt-5">
+        <Col lg={6} xl={6} md={12} className="pt-5 mt-5">
           <h2 className={`${classes["header-title"]} ${"text-wrap fluid"}`}>
             {title}
           </h2>
@@ -26,14 +31,22 @@ const Header = ({ title, desc, btn }) => {
             {btn}
           </Button>
         </Col>
-        <Col xl={6} md={12} className="my-4 d-flex justify-content-center">
+        <Col
+          lg={6}
+          xl={6}
+          md={12}
+          className="my-4 d-flex justify-content-center"
+        >
           <Image
             fluid
             src={headerImg}
-            className="animate__animated animate__backInRight animate__slow"
+            className={`${"animate__animated animate__backInRight animate__slow"} ${
+              classes["header-img"]
+            }`}
           />
         </Col>
       </Row>
+      `
     </Container>
   );
 };

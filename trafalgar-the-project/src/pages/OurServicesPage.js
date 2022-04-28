@@ -6,8 +6,9 @@ const OurServicesPage = ({ projectData }) => {
   return (
     <Container>
       <OurServices
-        title={projectData.ourserviceTitle}
-        desc={projectData.ourserviceDesc}
+        title={projectData.ourServicesTitle}
+        desc={projectData.ourServicesDesc}
+        btnDesc={projectData.ourServicesBtnDesc}
       />
     </Container>
   );

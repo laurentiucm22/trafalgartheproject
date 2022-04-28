@@ -45,6 +45,6 @@ export const ourServicesData = [
     id: "s6",
     imgSrc: Chart3,
     title: "Tracking",
-    description: "Track and save your medical history and health data ",
+    description: "Track and save your medical history and health data",
   },
 ];

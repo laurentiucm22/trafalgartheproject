@@ -27,7 +27,7 @@ const NavXL = () => {
                 md={6}
                 sm={6}
                 xs={6}
-                className="d-flex align-items-center "
+                className="d-flex align-items-center"
               >
                 <Nav
                   className={`${
