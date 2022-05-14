@@ -13,7 +13,7 @@ import classes from "./NavXL.module.css";
 const NavXL = () => {
   return (
     <div className="w-100">
-      <Navbar bg="white" expand="xl" className="py-4 ">
+      <Navbar expand="xl" className={`${classes["nav-bar"]}`}>
         <Container fluid>
           <div className="w-100">
             <Row>

@@ -20,7 +20,7 @@ const MobileNav = ({ ...props }) => {
     <div className={`${classes["mobile-nav"]} ${"w-100 justify-content-end"}`}>
       <Button
         onClick={handleShow}
-        className={`${"bg bg-white d-flex justify-content-center align-items-center"} ${
+        className={`${"bg-white d-flex justify-content-center align-items-center"} ${
           classes["mobile-icon"]
         }`}
       >

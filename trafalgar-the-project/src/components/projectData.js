@@ -13,8 +13,8 @@ export const projectData = {
   leadingDesc:
     "Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it's not just work. We take pride in the solutions we deliver",
   leadingBtnDesc: "Learn more",
-  downloadTitle: "Download our mobile apps",
-  downloadDesc:
+  downloadAppTitle: "Download our mobile apps",
+  downloadAppDesc:
     "Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely",
-  downloadBtnDesc: "Download",
+  downloadAppBtnDesc: "Download",
 };

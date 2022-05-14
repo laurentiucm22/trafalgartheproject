@@ -12,7 +12,7 @@ export const navData = [
   {
     id: "n3",
     page: "Apps",
-    links: "#",
+    links: "#download-app",
   },
   {
     id: "n4",

@@ -1,5 +1,5 @@
 .leading-container {
-  padding: 6rem 0 8rem 0;
+  padding: 6rem 0 8rem;
 }
 
 .leading-row {
@@ -8,6 +8,21 @@
 
 .leading-second__col {
   padding-left: 8rem;
+}
+.fade-in {
+  opacity: 0;
+  transform: translateX(-25%);
+  ransition: opacity 550ms ease-in, transform 650ms ease-in;
+}
+.appear {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: opacity 550ms ease-in, transform 650ms ease-in;
+}
+.leading-fill {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 @media (max-width: 1100px) {
@@ -21,7 +36,7 @@
     padding: 0 2rem;
     align-items: center;
   }
-  @media (max-width: 1100px) {
+  @media (max-width: 1023px) {
     .leading-row {
       padding-bottom: 5rem;
       flex-direction: column-reverse;

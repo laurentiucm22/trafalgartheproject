@@ -5,10 +5,16 @@ import Col from "react-bootstrap/Col";
 import classes from "./Leading.module.css";
 import LeadingImg from "./LeadingImg";
 import LeadingContent from "./LeadingContent";
+import Image from "react-bootstrap/Image";
+import leadingFill from "../../images/leadingFill.svg";
 
 const Leading = ({ title, desc, btnDesc }) => {
   return (
-    <Container className={`${classes["leading-container"]}`} id="find-a-doctor">
+    <Container
+      className={`${classes["leading-container"]} `}
+      id="find-a-doctor"
+    >
+      <Image src={leadingFill} className={`${classes["leading-fill"]}`} />
       <Row
         fluid={`${"true"}`}
         className={`${classes["leading-row"]} ${"p-0 m-0"}`}

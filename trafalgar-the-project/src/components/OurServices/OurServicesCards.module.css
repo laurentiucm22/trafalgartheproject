@@ -9,9 +9,9 @@
 }
 
 .card {
-  background-color: #fff;
+  background-color: var(--clr-white);
   border-radius: 1.25rem;
-  box-shadow: 15px 25px 35px 4px rgba(215, 231, 247, 0.9);
+  box-shadow: 15px 25px 35px 4px rgba(215, 231, 246, 0.6);
   display: grid;
   grid-template-rows: 1fr;
   align-items: center;

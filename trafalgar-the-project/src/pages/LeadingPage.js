@@ -3,7 +3,7 @@ import Leading from "../components/Leading";
 
 const LeadingPage = ({ projectData }) => {
   return (
-    <div>
+    <div className={`${"position-relative"}`}>
       <Leading
         title={projectData.leadingTitle}
         desc={projectData.leadingDesc}

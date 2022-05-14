@@ -17,13 +17,11 @@ const Header = ({ title, desc, btn }) => {
         />
       </Container>
       <Row className={`${classes["header-row"]} ${"pt-5"}`}>
-        <Col lg={6} xl={6} md={12} className="pt-5 mt-5">
-          <h2 className={`${classes["header-title"]} ${"text-wrap fluid"}`}>
+        <Col lg={6} xl={5} md={12} className="pt-5 mt-5">
+          <h2 className={`${classes["header-title"]} ${"text-wrap"}`}>
             {title}
           </h2>
-          <p className={`${classes["header-p"]} ${"py-3 text-wrap fluid"}`}>
-            {desc}
-          </p>
+          <p className={`${classes["header-p"]} ${"py-3 text-wrap"}`}>{desc}</p>
           <Button
             className={`${classes["header-button"]} ${"text-white mt-2"}`}
             type="button"
@@ -33,7 +31,7 @@ const Header = ({ title, desc, btn }) => {
         </Col>
         <Col
           lg={6}
-          xl={6}
+          xl={7}
           md={12}
           className="my-4 d-flex justify-content-center"
         >
@@ -46,7 +44,6 @@ const Header = ({ title, desc, btn }) => {
           />
         </Col>
       </Row>
-      `
     </Container>
   );
 };
