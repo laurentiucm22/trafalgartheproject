@@ -6,7 +6,7 @@ const useCustomView = (options) => {
   const [inView, setInView] = useState(false);
 
   const callBack = (entries) => {
-    const [entry] = entries;
+    const [entry] = entries; // const entry = entries[0];
     setInView(entry.isIntersecting);
   };
 
@@ -15,6 +15,7 @@ const useCustomView = (options) => {
 
     const observer = new IntersectionObserver(callBack, options);
     console.log(observer);
+
     if (current) observer.observe(current);
 
     return () => {

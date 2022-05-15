@@ -9,15 +9,15 @@
 .leading-second__col {
   padding-left: 8rem;
 }
-.fade-in {
+.fade-left {
   opacity: 0;
-  transform: translateX(-25%);
-  ransition: opacity 550ms ease-in, transform 650ms ease-in;
+  transform: translateX(-35%);
+  transition: opacity 550ms ease-in, transform 850ms ease-in;
 }
-.appear {
+.appear-left {
   opacity: 1;
   transform: translateX(0%);
-  transition: opacity 550ms ease-in, transform 650ms ease-in;
+  transition: opacity 550ms ease-in, transform 850ms ease-in;
 }
 .leading-fill {
   position: absolute;
@@ -44,6 +44,9 @@
   }
 
   @media (max-width: 600px) {
+    .leading-second__col {
+      padding-left: 1.5rem;
+    }
     .leading-container {
       padding: 1rem 0;
     }

@@ -1,5 +1,4 @@
-// Props are pass down to the Pages Components and then to the children
-
+// Project Data, this displays the entire project
 export const projectData = {
   headerTitle: "Virtual healthcare for you",
   headerDesc:
@@ -17,4 +16,5 @@ export const projectData = {
   downloadAppDesc:
     "Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely",
   downloadAppBtnDesc: "Download",
+  testimonialsTitle: "What our customer are saying",
 };

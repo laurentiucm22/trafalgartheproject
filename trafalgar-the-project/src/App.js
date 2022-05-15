@@ -8,14 +8,16 @@ import OurServicesPage from "./pages/OurServicesPage";
 import LeadingPage from "./pages/LeadingPage";
 import "animate.css";
 import DownloadAppPage from "./pages/DownloadAppPage";
+import CarouselPage from "./pages/CarouselPage";
 
 function App() {
   return (
-    <div className="bg-info position-relative">
+    <div className="position-relative">
       <HomePage projectData={projectData} />
       <OurServicesPage projectData={projectData} />
       <LeadingPage projectData={projectData} />
       <DownloadAppPage projectData={projectData} />
+      <CarouselPage projectData={projectData} />
     </div>
   );
 }

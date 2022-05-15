@@ -6,8 +6,8 @@ import useCustomView from "../CustomHook/useCustomView";
 
 const LeadingImg = () => {
   const [containerRef, inView] = useCustomView({
-    rootMargin: "0px 0px 0px 0px",
-    threshold: 0.7,
+    rootMargin: "100px 0px 0px 0px",
+    threshold: 0.5,
   });
 
   return (
@@ -17,7 +17,7 @@ const LeadingImg = () => {
     >
       <Image
         src={leadingHealtImg}
-        className={!inView ? classes["fade-in"] : classes["appear"]}
+        className={!inView ? classes["fade-left"] : classes["appear-left"]}
       />
     </div>
   );
