@@ -16,13 +16,13 @@
 
 .fade-right {
   opacity: 0;
-  transform: translateX(25%);
-  transition: opacity 550ms ease-in, transform 900ms ease-in;
+  transform: translateX(35%);
+  transition: opacity 550ms ease-in, transform 750ms ease-in;
 }
 .appear-right {
   transform: translateX(0%);
   opacity: 1;
-  transition: opacity 550ms ease-in, transform 900ms ease-in;
+  transition: opacity 550ms ease-in, transform 750ms ease-in;
 }
 
 @media (max-width: 1100px) {

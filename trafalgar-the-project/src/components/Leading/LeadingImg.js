@@ -6,7 +6,7 @@ import useCustomView from "../CustomHook/useCustomView";
 
 const LeadingImg = () => {
   const [containerRef, inView] = useCustomView({
-    rootMargin: "100px 0px 0px 0px",
+    rootMargin: "500px 0px 0px 0px",
     threshold: 0.5,
   });
 

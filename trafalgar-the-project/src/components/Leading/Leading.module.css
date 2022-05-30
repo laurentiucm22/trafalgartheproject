@@ -12,12 +12,12 @@
 .fade-left {
   opacity: 0;
   transform: translateX(-35%);
-  transition: opacity 550ms ease-in, transform 850ms ease-in;
+  transition: opacity 550ms ease-in, transform 750ms ease-in;
 }
 .appear-left {
   opacity: 1;
   transform: translateX(0%);
-  transition: opacity 550ms ease-in, transform 850ms ease-in;
+  transition: opacity 550ms ease-in, transform 750ms ease-in;
 }
 .leading-fill {
   position: absolute;

@@ -1,0 +1,64 @@
+.carousel-content {
+  display: block;
+}
+
+.carousel__title-container {
+  width: 100%;
+  padding: 5rem 0 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel__title {
+  font-size: var(--fs-800);
+  color: var(--clr-white);
+  font-weight: 700;
+  font-family: var(--ff-musli);
+  line-height: 1.3;
+}
+
+.carousel__span {
+  width: 56px;
+  height: 2px;
+  background-color: var(--clr-white);
+  margin-top: 1rem;
+}
+
+.customer > * {
+  font-family: var(--ff-mulish);
+}
+
+.customer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.customer-content {
+  display: flex;
+  align-items: center;
+}
+
+.customer-desc {
+  padding-left: 2rem;
+}
+
+.customer-name {
+  font-size: var(--fs-605);
+  color: var(--clr-white);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.customer-pos {
+  color: var(--clr-white);
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.customer-comm {
+  max-width: 400px;
+  color: var(--clr-white);
+  font-size: 1.188rem;
+}

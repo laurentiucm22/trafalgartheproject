@@ -6,7 +6,7 @@ import classes from "./DownloadApp.module.css";
 
 const DownloadAppImg = () => {
   const [containerRef, inView] = useCustomView({
-    rootMargin: "0px 0px 100px 0px",
+    rootMargin: "500px 0px 0px 0px",
     threshold: 0.7,
   });
 

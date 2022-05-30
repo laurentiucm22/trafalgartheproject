@@ -16,5 +16,4 @@ export const projectData = {
   downloadAppDesc:
     "Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely",
   downloadAppBtnDesc: "Download",
-  testimonialsTitle: "What our customer are saying",
 };

@@ -17,7 +17,7 @@ function App() {
       <OurServicesPage projectData={projectData} />
       <LeadingPage projectData={projectData} />
       <DownloadAppPage projectData={projectData} />
-      <CarouselPage projectData={projectData} />
+      <CarouselPage />
     </div>
   );
 }
